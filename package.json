@@ -1,6 +1,6 @@
 {
   "name": "@govalta/style-dictionary",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "main": "./src/index.tsx",
   "types": "index.d.ts",
   "repository": {
@@ -21,7 +21,7 @@
     "build": "npx style-dictionary build --config ./DDIStyle/config.json",
     "bundle": "rimraf dist && npm run copy",
     "copy": "copyfiles package.json dist && copyfiles index.js dist && copyfiles -u 2 ./DDIStyle/build/scss/** dist",
-    "deploy": "npm run bundle && npm publish ./dist"
+    "deploy": "npm run build && npm run bundle && npm publish ./dist"
   },
   "dependencies": {
     "style-dictionary": "^3.7.1"
