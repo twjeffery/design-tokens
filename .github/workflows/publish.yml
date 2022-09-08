@@ -1,0 +1,31 @@
+name: Publish NPM Package
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Publish NPM Package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    
+    steps:
+      - name: Get Latest
+        uses: actions/checkout@v2
+
+      - name: Configure Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@govalta'
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Deploy package
+        run: |
+          npm i --ignore-scripts
+          npm run deploy

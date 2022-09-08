@@ -1,0 +1,35 @@
+{
+  "name": "@govalta/style-dictionary",
+  "version": "0.1.0-alpha.1",
+  "main": "./src/index.tsx",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovAlta/style-dictionary.git"
+  },
+  "keywords": [
+    "style",
+    "dictionary",
+    "style-dictionary"
+  ],
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2"
+
+  },
+  "scripts": {
+    "build": "npx style-dictionary build --config ./DDIStyle/config.json",
+    "bundle": "rimraf dist && npm run copy",
+    "copy": "copyfiles package.json dist && copyfiles index.js dist && copyfiles -u 2 ./DDIStyle/build/scss/** dist",
+    "deploy": "npm run bundle && npm publish ./dist"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/GovAlta/style-dictionary/issues"
+  }
+}
