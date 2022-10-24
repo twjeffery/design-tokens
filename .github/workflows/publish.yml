@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 16
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@govalta'
+          scope: '@abgov'
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

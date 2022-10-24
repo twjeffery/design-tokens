@@ -1,5 +1,7 @@
 ﻿# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+tmp
+
 #rider
 .idea
 
@@ -31,5 +33,4 @@ package-lock.json
 /src/Styles/*.css.map
 
 /.idea/**/*
-/DDIStyle/build
 ./dist
