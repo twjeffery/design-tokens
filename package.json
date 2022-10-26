@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "style-dictionary": "^3.7.1"
-  }
+  },
   "scripts": {
     "build": "node index.js",
     "test": "jest && rimraf ./tmp",
