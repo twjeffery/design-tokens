@@ -32,6 +32,9 @@ jobs:
           scope: '@abgov'
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+            
+      - name: Install Dependencies
+      - run: npm ci
 
       - name: Build
         run: npm run build
