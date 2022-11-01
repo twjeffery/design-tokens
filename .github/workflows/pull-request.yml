@@ -25,6 +25,13 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
+      - name: Add auto-generated file
+        run: |
+          git config user.email "bot@gov.ab.ca"
+          git config user.name "Build Bot"
+          git add .
+          PREVIOUS_MESSAGE="$(git log --format=%B -n 1)"
+          git commit --amend -m "$PREVIOUS_MESSAGE"
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3.1.2
         with:
