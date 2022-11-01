@@ -27,7 +27,8 @@ jobs:
         run: npm run build
       - name: Add auto-generated file
         run: |
-          git config user.email "bot@gov.ab.ca"
+          npm run build
+          git config user.email "build-bot@gov.ab.ca"
           git config user.name "Build Bot"
           git add .
           PREVIOUS_MESSAGE="$(git log --format=%B -n 1)"
