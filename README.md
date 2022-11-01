@@ -1,23 +1,22 @@
-# GoA Style Dictionary
+# GoA Design Tokens
 
 ## Setup
 
 ```bash
-npm i --save-dev @abgov/style-dictionary
+npm i --save-dev @abgov/design-tokens
 ```
 
 Within your one of your application top level js/ts file
 add the following
 
 SCSS
+
 ```scss
-@import "@abgov/style-dictionary/scss/tokens";
+@import "@abgov/design-tokens/scss/tokens";
 ```
 
 CSS
+
 ```css
-@import "@abgov/style-dictionary/css/tokens";
+@import "@abgov/design-tokens/css/tokens";
 ```
-
-
-

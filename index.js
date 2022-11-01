@@ -1,3 +1,3 @@
-const SC = require("./lib/styled-components");
+const SC = require("./lib/design-tokens");
 
 SC.generate(".");
