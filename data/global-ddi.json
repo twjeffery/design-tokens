@@ -4,24 +4,24 @@
       "default": {
         "value": "#0081A2",
         "type": "color",
-        "description": "Teal GOA Colour"
+        "description": "Teal GOA color"
       },
       "dark": {
         "value": "#005072",
         "type": "color",
-        "description": "Dark GOA brand colour"
+        "description": "Dark GOA brand color"
       },
       "light": {
         "value": "#C8EEFA",
         "type": "color",
-        "description": "Light GOA brand colour"
+        "description": "Light GOA brand color"
       }
     },
     "interactive": {
       "default": {
         "value": "#0070C4",
         "type": "color",
-        "description": "Default colour for interactive elements."
+        "description": "Default color for interactive elements."
       },
       "hover": {
         "value": "#004F84",
@@ -48,12 +48,12 @@
       "secondary": {
         "value": "#666666",
         "type": "color",
-        "description": "Default colour for secondary text (such as disabled button text, and secondary text labels eg. “optional” or “partially complete”)."
+        "description": "Default color for secondary text (such as disabled button text, and secondary text labels eg. “optional” or “partially complete”)."
       },
       "light": {
         "value": "#FFFFFF",
         "type": "color",
-        "description": "Use as the text colour on dark backgrounds."
+        "description": "Use as the text color on dark backgrounds."
       }
     },
     "status": {
@@ -61,7 +61,7 @@
         "default": {
           "value": "#005DAA",
           "type": "color",
-          "description": "Use this colour to indicate information to the user."
+          "description": "Use this color to indicate information to the user."
         },
         "light": {
           "value": "#B2D4ED",
@@ -76,7 +76,7 @@
         "default": {
           "value": "#FEBA35",
           "type": "color",
-          "description": "Use this colour to indicate a warning to the user."
+          "description": "Use this color to indicate a warning to the user."
         },
         "light": {
           "value": "#FCEFD0",
@@ -91,7 +91,7 @@
         "default": {
           "value": "#EC040B",
           "type": "color",
-          "description": "Use this colour to indicate an emergency to the user."
+          "description": "Use this color to indicate an emergency to the user."
         },
         "light": {
           "value": "#FFCECF",
@@ -106,7 +106,7 @@
         "default": {
           "value": "#00853F",
           "type": "color",
-          "description": "Use this colour to indicate success to the user."
+          "description": "Use this color to indicate success to the user."
         },
         "light": {
           "value": "#C6E0D0",
@@ -462,7 +462,7 @@
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.1}",
           "fontSize": "{fontSize.4}",
-          "letterSpacing": "{letterSpacing.buttons}"
+          "letterSpacing": "{letterSpacing.1}"
         },
         "type": "typography"
       }
@@ -486,7 +486,7 @@
     }
   },
   "letterSpacing": {
-    "buttons": {
+    "1": {
       "value": "1%",
       "type": "letterSpacing",
       "description": "small letter spacing adjustment to slightly kern letters out for readability on buttons"

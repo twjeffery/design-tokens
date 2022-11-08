@@ -1,14 +1,14 @@
 {
   "information": {
-    "background-colour": {
+    "background-color": {
       "value": "{color.greyscale.100}",
       "type": "color"
     },
-    "text-colour": {
+    "text-color": {
       "value": "{color.status.info.default}",
       "type": "color"
     },
-    "icon-colour": {
+    "icon-color": {
       "value": "{color.status.info.default}",
       "type": "color"
     }
@@ -26,15 +26,15 @@
     "type": "fontWeights"
   },
   "important": {
-    "background-colour": {
+    "background-color": {
       "value": "{color.status.warning.default}",
       "type": "color"
     },
-    "text-colour": {
+    "text-color": {
       "value": "{color.text.default}",
       "type": "color"
     },
-    "icon-colour": {
+    "icon-color": {
       "value": "{color.greyscale.black}",
       "type": "color"
     }
@@ -60,15 +60,15 @@
     "type": "sizing"
   },
   "emergency": {
-    "background-colour": {
+    "background-color": {
       "value": "{color.status.emergency.default}",
       "type": "color"
     },
-    "text-colour": {
+    "text-color": {
       "value": "{color.text.light}",
       "type": "color"
     },
-    "icon-colour": {
+    "icon-color": {
       "value": "{color.greyscale.white}",
       "type": "color"
     }
@@ -78,11 +78,11 @@
       "value": "{color.status.success.default}",
       "type": "color"
     },
-    "text-colour": {
+    "text-color": {
       "value": "{color.text.light}",
       "type": "color"
     },
-    "icon-colour": {
+    "icon-color": {
       "value": "{color.greyscale.white}",
       "type": "color"
     }
