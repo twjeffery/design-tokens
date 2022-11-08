@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - dev
 
 jobs:
   build:
@@ -27,12 +28,16 @@ jobs:
         run: npm run build
       - name: Add auto-generated file
         run: |
-          npm run build
-          git config user.email "build-bot@gov.ab.ca"
-          git config user.name "Build Bot"
-          git add .
-          PREVIOUS_MESSAGE="$(git log --format=%B -n 1)"
-          git commit --amend -m "$PREVIOUS_MESSAGE"
+          echo "Autobuild is currently disabled"
+          # npm run build
+          # git config user.email "build-bot@gov.ab.ca"
+          # git config user.name "Build Bot"
+          # PREVIOUS_MESSAGE="$(git log --format=%B -n 1)"
+          # CURRENT_BRANCH="$(git branch --show-current)"
+          # echo $(git branch)
+          # git add .
+          # git commit --amend -m "$PREVIOUS_MESSAGE"
+          # git push origin $CURRENT_BRANCH -f
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3.1.2
         with:
