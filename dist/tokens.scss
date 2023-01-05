@@ -1,34 +1,40 @@
 
 // Do not edit directly
-// Generated on Fri, 16 Dec 2022 03:15:00 GMT
+// Generated on Thu, 05 Jan 2023 21:01:38 GMT
 
 $goa-color-brand-default: #0081a2;
 $goa-color-brand-dark: #005072;
 $goa-color-brand-light: #c8eefa;
 $goa-color-interactive-default: #0070c4;
+$goa-color-interactive-disabled: #80b7e1;
 $goa-color-interactive-hover: #004f84;
 $goa-color-interactive-error: #ec040b;
 $goa-color-interactive-focus: #feba35;
 $goa-color-text-default: #333333;
 $goa-color-text-secondary: #666666;
 $goa-color-text-light: #ffffff;
-$goa-color-status-info-default: #005daa;
-$goa-color-status-info-light: #b2d4ed;
-$goa-color-status-info-dark: #00347a;
-$goa-color-status-warning-default: #feba35;
-$goa-color-status-warning-light: #fcefd0;
-$goa-color-status-warning-dark: #c68a00;
-$goa-color-status-emergency-default: #ec040b;
-$goa-color-status-emergency-light: #ffcecf;
-$goa-color-status-emergency-dark: #b00000;
-$goa-color-status-success-default: #00853f;
-$goa-color-status-success-light: #c6e0d0;
-$goa-color-status-success-dark: #005715;
+$goa-color-info-default: #005daa;
+$goa-color-info-background: #eff8ff;
+$goa-color-info-light: #b2d4ed;
+$goa-color-info-dark: #00347a;
+$goa-color-caution-background: #fff6e5;
+$goa-color-caution-default: #feba35;
+$goa-color-caution-light: #fcefd0;
+$goa-color-caution-dark: #c68a00;
+$goa-color-emergency-background: #fff1f2;
+$goa-color-emergency-default: #ec040b;
+$goa-color-emergency-light: #ffcecf;
+$goa-color-emergency-dark: #b00000;
+$goa-color-success-background: #eef9f3;
+$goa-color-success-default: #00853f;
+$goa-color-success-light: #c6e0d0;
+$goa-color-success-dark: #005715;
 $goa-color-greyscale-100: #f1f1f1;
 $goa-color-greyscale-200: #dcdcdc;
 $goa-color-greyscale-400: #adadad;
 $goa-color-greyscale-500: #949494;
-$goa-color-greyscale-600: #666666;
+$goa-color-greyscale-600: #858585;
+$goa-color-greyscale-700: #666666;
 $goa-color-greyscale-black: #333333;
 $goa-color-greyscale-white: #ffffff;
 $goa-font-weight-regular: 400;
@@ -84,7 +90,8 @@ $goa-typography-button-default: 400 1.125rem/1.25rem Acumin-pro-semi-condensed;
 $goa-border-width-s: 1px;
 $goa-border-width-m: 2px;
 $goa-border-width-l: 3px;
-$goa-letter-spacing-buttons: 0.0125rem;
+$goa-letter-spacing-1: 0.0125rem;
 $goa-icon-size-s: 1rem;
 $goa-icon-size-m: 1.25rem;
 $goa-icon-size-l: 1.5rem;
+$goa-drop-shadow-modal: 6px 6px 6px 0px rgba(0,0,0,0.16);

@@ -11,25 +11,23 @@ describe("GoA Design Tokens", () => {
   it("should create css and scss files", async () => {
     SC.generate("./tmp");
     const dirs = fs.readdirSync("./tmp");
-    expect(dirs.length).toBe(2);
-    expect(dirs).toContain("css");
-    expect(dirs).toContain("scss");
+    expect(dirs.length).toBe(1);
+    expect(dirs[0]).toContain("dist");
 
-    for (const dir of dirs) {
-      const files = fs.readdirSync("./tmp/" + dir);
-      expect(files.length).toBe(1);
-      expect(files[0]).toBe(`tokens.${dir}`);
-    }
+    const files = fs.readdirSync("./tmp/dist");
+    expect(files.length).toBe(2);
+    expect(files[0]).toBe(`tokens.css`);
+    expect(files[1]).toBe(`tokens.scss`);
   });
 
   it("should create valid css output", async () => {
     SC.generate("./tmp");
-    const raw = fs.readFileSync("./tmp/css/tokens.css", { encoding: "utf8" });
+    const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
     expect(raw).toContain("--goa-color-brand-default");
   });
   it("should create valid scss output", async () => {
     SC.generate("./tmp");
-    const raw = fs.readFileSync("./tmp/scss/tokens.scss", { encoding: "utf8" });
+    const raw = fs.readFileSync("./tmp/dist/tokens.scss", { encoding: "utf8" });
     expect(raw).toContain("$goa-color-brand-default");
   });
 });
