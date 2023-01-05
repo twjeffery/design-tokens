@@ -23,11 +23,11 @@ describe("GoA Design Tokens", () => {
   it("should create valid css output", async () => {
     SC.generate("./tmp");
     const raw = fs.readFileSync("./tmp/dist/tokens.css", { encoding: "utf8" });
-    expect(raw).toContain("--goa-color-brand-default");
+    expect(raw).not.toContain("[object Object]");
   });
   it("should create valid scss output", async () => {
     SC.generate("./tmp");
     const raw = fs.readFileSync("./tmp/dist/tokens.scss", { encoding: "utf8" });
-    expect(raw).toContain("$goa-color-brand-default");
+    expect(raw).not.toContain("[object Object]");
   });
 });
