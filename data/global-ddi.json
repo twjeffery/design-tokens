@@ -81,7 +81,7 @@
         "type": "color"
       }
     },
-    "caution": {
+    "warning": {
       "background": {
         "value": "#FFF6E5",
         "type": "color",
