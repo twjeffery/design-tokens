@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 05 Jan 2023 23:01:50 GMT
+ * Generated on Fri, 06 Jan 2023 17:33:25 GMT
  */
 
 :root {
@@ -19,10 +19,10 @@
   --goa-color-info-background: #eff8ff;
   --goa-color-info-light: #b2d4ed;
   --goa-color-info-dark: #00347a;
-  --goa-color-caution-background: #fff6e5;
-  --goa-color-caution-default: #feba35;
-  --goa-color-caution-light: #fcefd0;
-  --goa-color-caution-dark: #c68a00;
+  --goa-color-warning-background: #fff6e5;
+  --goa-color-warning-default: #feba35;
+  --goa-color-warning-light: #fcefd0;
+  --goa-color-warning-dark: #c68a00;
   --goa-color-emergency-background: #fff1f2;
   --goa-color-emergency-default: #ec040b;
   --goa-color-emergency-light: #ffcecf;
