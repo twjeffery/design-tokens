@@ -23,11 +23,6 @@
         "type": "color",
         "description": "Default color for interactive elements."
       },
-      "disabled": {
-        "value": "#80B7E1",
-        "type": "color",
-        "description": "Color for disabled interactive elements."
-      },
       "hover": {
         "value": "#004F84",
         "type": "color",
@@ -42,23 +37,33 @@
         "value": "#FEBA35",
         "type": "color",
         "description": "Focus state color for interactive elements."
+      },
+      "disabled": {
+        "value": "#80B7E1",
+        "type": "color",
+        "description": "Color for disabled interactive elements."
       }
     },
     "text": {
       "default": {
-        "value": "#333333",
+        "value": "{color.greyscale.black}",
         "type": "color",
         "description": "Default color for most text (such as body, headings, subheadings)."
       },
       "secondary": {
-        "value": "#666666",
+        "value": "{color.greyscale.700}",
         "type": "color",
-        "description": "Default color for secondary text (such as disabled button text, and secondary text labels eg. “optional” or “partially complete”)."
+        "description": "Default colour for secondary text labels such as “optional” or “required”."
       },
       "light": {
-        "value": "#FFFFFF",
+        "value": "{color.greyscale.white}",
         "type": "color",
         "description": "Use as the text color on dark backgrounds."
+      },
+      "disabled": {
+        "value": "{color.greyscale.700}",
+        "type": "color",
+        "description": "Default color for text on a grey background within the disabled text input, text area, combobox, and dropdown."
       }
     },
     "info": {
@@ -67,11 +72,6 @@
         "type": "color",
         "description": "Use this color to indicate information to the user."
       },
-      "background": {
-        "value": "#EFF8FF",
-        "type": "color",
-        "description": "Use this color as a background when indicating information to the user such as within a container or small callout."
-      },
       "light": {
         "value": "#B2D4ED",
         "type": "color"
@@ -79,14 +79,14 @@
       "dark": {
         "value": "#00347A",
         "type": "color"
+      },
+      "background": {
+        "value": "#EFF8FF",
+        "type": "color",
+        "description": "Use this color as a background when indicating information to the user such as within a container or small callout."
       }
     },
     "warning": {
-      "background": {
-        "value": "#FFF6E5",
-        "type": "color",
-        "description": "Use this color as a background when indicating caution to the user such as within a container or small callout."
-      },
       "default": {
         "value": "#FEBA35",
         "type": "color",
@@ -99,14 +99,14 @@
       "dark": {
         "value": "#C68A00",
         "type": "color"
+      },
+      "background": {
+        "value": "#FFF6E5",
+        "type": "color",
+        "description": "Use this color as a background when indicating caution to the user such as within a container or small callout."
       }
     },
     "emergency": {
-      "background": {
-        "value": "#FFF1F2",
-        "type": "color",
-        "description": "Use this color as a background when indicating emergency to the user such as within a container or small callout."
-      },
       "default": {
         "value": "#EC040B",
         "type": "color",
@@ -119,14 +119,14 @@
       "dark": {
         "value": "#B00000",
         "type": "color"
+      },
+      "background": {
+        "value": "#FFF1F2",
+        "type": "color",
+        "description": "Use this color as a background when indicating emergency to the user such as within a container or small callout."
       }
     },
     "success": {
-      "background": {
-        "value": "#EEF9F3",
-        "type": "color",
-        "description": "Use this color as a background when indicating success to the user such as within a container or small callout."
-      },
       "default": {
         "value": "#00853F",
         "type": "color",
@@ -139,6 +139,11 @@
       "dark": {
         "value": "#005715",
         "type": "color"
+      },
+      "background": {
+        "value": "#EEF9F3",
+        "type": "color",
+        "description": "Use this color as a background when indicating success to the user such as within a container or small callout."
       }
     },
     "greyscale": {
@@ -242,7 +247,7 @@
       "description": "48px"
     }
   },
-  "spacing": {
+  "space": {
     "none": {
       "value": "0rem",
       "type": "spacing",
@@ -300,42 +305,29 @@
     }
   },
   "borderRadius": {
-    "0": {
+    "none": {
       "value": "0rem",
       "type": "borderRadius",
-      "description": "0px"
+      "description": "0px, square corner"
     },
-    "4": {
+    "m": {
       "value": "0.25rem",
       "type": "borderRadius",
       "description": "4px"
-    },
-    "pill": {
-      "value": "999px",
-      "type": "borderRadius",
-      "description": "999px | 999rem"
-    },
-    "circle": {
-      "value": "50%",
-      "type": "borderRadius",
-      "description": "50%"
     }
   },
   "opacity": {
-    "3": {
-      "value": "30%",
-      "type": "opacity",
-      "description": "30% opacity"
-    },
-    "5": {
-      "value": "50%",
-      "type": "opacity",
-      "description": "50% opacity"
-    },
-    "8": {
-      "value": "80%",
-      "type": "opacity",
-      "description": "80% opacity"
+    "background": {
+      "modal": {
+        "value": "50%",
+        "type": "opacity",
+        "description": "50% opacity for black scrim behind modal to disable the rest of the screen."
+      },
+      "loading": {
+        "value": "90%",
+        "type": "opacity",
+        "description": "90% opacity for white scrum behind loading indicator."
+      }
     }
   },
   "lineHeight": {
@@ -373,55 +365,40 @@
       "value": "3.5rem",
       "type": "lineHeights",
       "description": "56px"
+    },
+    "05": {
+      "value": "1.125rem",
+      "type": "lineHeights",
+      "description": "18px"
     }
   },
-  "fontFamilies": {
-    "default": {
-      "value": "Acumin-pro-semi-condensed",
+  "fontFamily": {
+    "sans": {
+      "value": "acumin-pro-semi-condensed, helvetica-neue, arial, sans-serif",
       "type": "fontFamilies",
-      "description": "Deafult font family for GOA"
+      "description": "Deafult font family and fallback fonts when unavailable"
     },
-    "numbers": {
-      "value": "roboto-mono",
+    "number": {
+      "value": "roboto-mono, monospace",
       "type": "fontFamilies",
-      "description": "monospace typeface for numbers"
+      "description": "monospace typeface for numbers and fallback fonts when unavailable"
     }
   },
   "typography": {
     "heading": {
-      "xl": {
+      "xs": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.bold}",
-          "lineHeight": "{lineHeight.7}",
-          "fontSize": "{fontSize.10}"
+          "lineHeight": "{lineHeight.2}",
+          "fontSize": "{fontSize.3}"
         },
         "type": "typography",
-        "description": "Heading XL"
-      },
-      "l": {
-        "value": {
-          "fontFamily": "{fontFamilies.default}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.6}",
-          "fontSize": "{fontSize.9}"
-        },
-        "type": "typography",
-        "description": "Heading L"
-      },
-      "m": {
-        "value": {
-          "fontFamily": "{fontFamilies.default}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.4}",
-          "fontSize": "{fontSize.7}"
-        },
-        "type": "typography",
-        "description": "Heading M"
+        "description": "Heading XS"
       },
       "s": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.3}",
           "fontSize": "{fontSize.4}"
@@ -429,41 +406,51 @@
         "type": "typography",
         "description": "Heading S"
       },
-      "xs": {
+      "m": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
-          "fontWeight": "{fontWeight.bold}",
-          "lineHeight": "{lineHeight.2}",
-          "fontSize": "{fontSize.3}"
-        },
-        "type": "typography",
-        "description": "Heading XS"
-      }
-    },
-    "body": {
-      "l": {
-        "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.4}",
           "fontSize": "{fontSize.7}"
         },
         "type": "typography",
-        "description": "Large text"
+        "description": "Heading M"
       },
-      "m": {
+      "l": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.3}",
-          "fontSize": "{fontSize.4}"
+          "lineHeight": "{lineHeight.6}",
+          "fontSize": "{fontSize.9}"
         },
         "type": "typography",
-        "description": "Body text"
+        "description": "Heading L"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "{fontFamily.sans}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.7}",
+          "fontSize": "{fontSize.10}"
+        },
+        "type": "typography",
+        "description": "Heading XL"
+      }
+    },
+    "body": {
+      "xs": {
+        "value": {
+          "fontFamily": "{fontFamily.sans}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.1}",
+          "fontSize": "{fontSize.2}"
+        },
+        "type": "typography",
+        "description": "Micro text"
       },
       "s": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.2}",
           "fontSize": "{fontSize.3}"
@@ -471,25 +458,47 @@
         "type": "typography",
         "description": "Small text"
       },
-      "xs": {
+      "m": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.1}",
-          "fontSize": "{fontSize.2}"
+          "lineHeight": "{lineHeight.3}",
+          "fontSize": "{fontSize.4}"
         },
         "type": "typography",
-        "description": "Micro text"
+        "description": "Body text"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "{fontFamily.sans}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.4}",
+          "fontSize": "{fontSize.7}"
+        },
+        "type": "typography",
+        "description": "Large text"
       }
     },
     "button": {
       "default": {
         "value": {
-          "fontFamily": "{fontFamilies.default}",
+          "fontFamily": "{fontFamily.sans}",
           "fontWeight": "{fontWeight.regular}",
           "lineHeight": "{lineHeight.1}",
           "fontSize": "{fontSize.4}",
-          "letterSpacing": "{letterSpacing.1}"
+          "letterSpacing": "{letterSpacing.button}"
+        },
+        "type": "typography"
+      }
+    },
+    "number": {
+      "m": {
+        "value": {
+          "fontFamily": "{fontFamily.number}",
+          "fontWeight": "{fontWeight.medium}",
+          "lineHeight": "{lineHeight.3}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": ""
         },
         "type": "typography"
       }
@@ -513,10 +522,10 @@
     }
   },
   "letterSpacing": {
-    "1": {
+    "button": {
       "value": "0.0125rem",
       "type": "letterSpacing",
-      "description": "small letter spacing adjustment to slightly kern letters out for readability on buttons"
+      "description": "small letter spacing adjustment to slightly kern letters out for readability on buttons."
     }
   },
   "iconSize": {
@@ -536,7 +545,7 @@
       "description": "24px"
     }
   },
-  "dropShadow": {
+  "Shadow": {
     "modal": {
       "value": {
         "x": "6",
