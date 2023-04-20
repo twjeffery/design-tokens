@@ -68,16 +68,16 @@
     },
     "info": {
       "default": {
-        "value": "#005DAA",
+        "value": "#004A8F",
         "type": "color",
         "description": "Use this color to indicate information to the user."
       },
       "light": {
-        "value": "#B2D4ED",
+        "value": "#AAC9E7",
         "type": "color"
       },
       "dark": {
-        "value": "#00347A",
+        "value": "#003B70",
         "type": "color"
       },
       "background": {
@@ -88,16 +88,16 @@
     },
     "warning": {
       "default": {
-        "value": "#FEBA35",
+        "value": "#F9CE2D",
         "type": "color",
         "description": "Use this color to indicate a warning to the user."
       },
       "light": {
-        "value": "#FCEFD0",
+        "value": "#FFEAB6",
         "type": "color"
       },
       "dark": {
-        "value": "#C68A00",
+        "value": "#BF8D23",
         "type": "color"
       },
       "background": {
@@ -108,16 +108,16 @@
     },
     "emergency": {
       "default": {
-        "value": "#EC040B",
+        "value": "#DA291C",
         "type": "color",
         "description": "Use this color to indicate an emergency to the user."
       },
       "light": {
-        "value": "#FFCECF",
+        "value": "#FBD1CE",
         "type": "color"
       },
       "dark": {
-        "value": "#B00000",
+        "value": "#A91A10",
         "type": "color"
       },
       "background": {
@@ -128,16 +128,16 @@
     },
     "success": {
       "default": {
-        "value": "#00853F",
+        "value": "#006F4C",
         "type": "color",
         "description": "Use this color to indicate success to the user."
       },
       "light": {
-        "value": "#C6E0D0",
+        "value": "#CCE4DC",
         "type": "color"
       },
       "dark": {
-        "value": "#005715",
+        "value": "#00563A",
         "type": "color"
       },
       "background": {
