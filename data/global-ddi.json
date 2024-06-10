@@ -147,6 +147,10 @@
       }
     },
     "greyscale": {
+      "50": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
       "100": {
         "value": "#F1F1F1",
         "type": "color"
