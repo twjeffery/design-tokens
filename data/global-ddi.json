@@ -509,6 +509,11 @@
     }
   },
   "borderWidth": {
+    "none": {
+      "value": "0px",
+      "type": "borderWidth",
+      "description": "No border"
+    },
     "s": {
       "value": "1px",
       "type": "borderWidth",
@@ -561,6 +566,286 @@
       },
       "type": "boxShadow",
       "description": "Drop shadow for modals."
+    }
+  },
+  "button": {
+    "border-radius": {
+      "value": "{borderRadius.m.value}",
+      "type": "borderRadius",
+      "description": "Button border radius"
+    },
+    "text": {
+      "value": "{typography.button.default.value}",
+      "type": "fontFamily",
+      "description": "Button text style"
+    },
+    "padding-lr": {
+      "value": "{space.s.value}",
+      "type": "spacing",
+      "description": "Padding for the left and right sides of a regular button"
+    },
+    "padding-lr-compact": {
+      "value": "{space.xs.value}",
+      "type": "spacing",
+      "description": "Padding for the left and right sides of a compact button"
+    },
+    "height": {
+      "value": "2.625rem",
+      "type": "spacing",
+      "description": "Button regular height (42px)"
+    },
+    "height-compact": {
+      "value": "2rem",
+      "type": "spacing",
+      "description": "Button compact height (36px)"
+    },
+    "height-start": {
+      "value": "3.25rem",
+      "type": "spacing",
+      "description": "Height for the start button type (52px)"
+    }
+  },
+  "accordion": {
+    "color-bg-heading": {
+      "value": "{color.greyscale.100.value}",
+      "type": "color",
+      "description": "Background color of accordion heading"
+    },
+    "color-bg-content": {
+      "value": "{color.greyscale.white.value}",
+      "type": "color",
+      "description": "Background color of accordion content"
+    },
+    "color-heading": {
+      "value": "{color.text.default.value}",
+      "type": "color",
+      "description": "Color of accordion heading text"
+    },
+    "border": {
+      "value": "{borderWidth.s.value} solid {color.greyscale.200.value}",
+      "type": "border",
+      "description": "Border of accordion"
+    },
+    "border-radius": {
+      "value": "{borderRadius.m.value}",
+      "type": "borderRadius",
+      "description": "Border radius of accordion"
+    },
+    "padding-heading": {
+      "value": "{space.s.value} {space.m.value} {space.s.value} 0",
+      "type": "spacing",
+      "description": "Padding of accordion heading"
+    },
+    "heading-s": {
+      "value": "{typography.heading.s.value}",
+      "type": "fontFamily",
+      "description": "Typography of accordion heading"
+    },
+    "heading-m": {
+      "value": "{typography.heading.m.value}",
+      "type": "fontFamily",
+      "description": "Typography of accordion heading"
+    },
+    "padding-content-wide": {
+      "value": "{space.l.value} {space.l.value} {space.xl.value} 56px",
+      "type": "spacing",
+      "description": "Padding of accordion content"
+    },
+    "padding-content-narrow": {
+      "value": "{space.l.value}",
+      "type": "spacing",
+      "description": "Padding of accordion content"
+    },
+    "color-bg-heading-hover": {
+      "value": "{color.greyscale.200.value}",
+      "type": "color",
+      "description": "Background color of accordion heading on hover"
+    },
+    "color-heading-hover": {
+      "value": "{color.text.default.value}",
+      "type": "color",
+      "description": "Color of accordion heading text on hover"
+    }
+  },
+  "callout": {
+    "border-radius": {
+      "value": "{borderRadius.none.value}",
+      "type": "borderRadius",
+      "description": "Border radius of callout"
+    },
+    "l-border-width": {
+      "value": "{borderWidth.none.value}",
+      "type": "borderWidth",
+      "description": "Border width of callout"
+    },
+    "l-heading-size": {
+      "value": "{typography.heading.m.value}",
+      "type": "fontSizes",
+      "description": "Large heading size"
+    },
+    "l-text-size": {
+      "value": "{typography.body.m.value}",
+      "type": "fontSizes",
+      "description": "Large text size"
+    },
+    "l-content-padding": {
+      "value": "{space.l.value}",
+      "type": "spacing",
+      "description": "Large content padding"
+    },
+    "l-content-gap": {
+      "value": "{space.m.value}",
+      "type": "spacing",
+      "description": "Large content gap"
+    },
+    "l-statusbar-padding": {
+      "value": "{space.l.value} {space.s.value}",
+      "type": "spacing",
+      "description": "Large status bar padding"
+    },
+    "m-border-width": {
+      "value": "{borderWidth.none.value}",
+      "type": "borderWidth",
+      "description": "Border width of callout"
+    },
+    "m-heading-size": {
+      "value": "{typography.heading.xs.value}",
+      "type": "fontSizes",
+      "description": "Medium heading size"
+    },
+    "m-text-size": {
+      "value": "{typography.body.s.value}",
+      "type": "fontSizes",
+      "description": "Medium text size"
+    },
+    "m-content-padding": {
+      "value": "{space.s.value}",
+      "type": "spacing",
+      "description": "Medium content padding"
+    },
+    "m-content-gap": {
+      "value": "{space.2xs.value}",
+      "type": "spacing",
+      "description": "Medium content gap"
+    },
+    "m-statusbar-padding": {
+      "value": "{space.s.value} {space.2xs.value}",
+      "type": "spacing",
+      "description": "Medium status bar padding"
+    },
+    "info-color-bg-content": {
+      "value": "{color.greyscale.100.value}",
+      "type": "color",
+      "description": "Background color of info callout content"
+    },
+    "info-icon-color": {
+      "value": "{color.greyscale.white.value}",
+      "type": "color",
+      "description": "Icon color of info callout"
+    },
+    "info-color-bg-statusbar": {
+      "value": "{color.info.default.value}",
+      "type": "color",
+      "description": "Background color of info callout status bar"
+    },
+    "info-border-color": {
+      "value": "none",
+      "type": "color",
+      "description": "Border color of info callout"
+    },
+    "warning-color-bg-content": {
+      "value": "{color.greyscale.100.value}",
+      "type": "color",
+      "description": "Background color of warning callout content"
+    },
+    "warning-color-bg-statusbar": {
+      "value": "{color.warning.default.value}",
+      "type": "color",
+      "description": "Background color of warning callout status bar"
+    },
+    "warning-icon-color": {
+      "value": "{color.greyscale.black.value}",
+      "type": "color",
+      "description": "Icon color of warning callout"
+    },
+    "warning-border-color": {
+      "value": "none",
+      "type": "color",
+      "description": "Border color of warning callout"
+    },
+    "success-color-bg-content": {
+      "value": "{color.greyscale.100.value}",
+      "type": "color",
+      "description": "Background color of success callout content"
+    },
+    "success-color-bg-statusbar": {
+      "value": "{color.success.default.value}",
+      "type": "color",
+      "description": "Background color of success callout status bar"
+    },
+    "success-icon-color": {
+      "value": "{color.greyscale.white.value}",
+      "type": "color",
+      "description": "Icon color of success callout"
+    },
+    "success-border-color": {
+      "value": "none",
+      "type": "color",
+      "description": "Border color of success callout"
+    },
+    "emergency-color-bg-content": {
+      "value": "{color.greyscale.100.value}",
+      "type": "color",
+      "description": "Background color of emergency callout content"
+    },
+    "emergency-color-bg-statusbar": {
+      "value": "{color.emergency.default.value}",
+      "type": "color",
+      "description": "Background color of emergency callout status bar"
+    },
+    "emergency-icon-color": {
+      "value": "{color.greyscale.white.value}",
+      "type": "color",
+      "description": "Icon color of emergency callout"
+    },
+    "emergency-border-color": {
+      "value": "none",
+      "type": "color",
+      "description": "Border color of emergency callout"
+    },
+    "event-icon-color": {
+      "value": "{color.greyscale.white.value}",
+      "type": "color",
+      "description": "Icon color of event callout"
+    }
+  },
+  "container": {
+    "border-radius": {
+      "value": "{borderRadius.m.value}",
+      "type": "borderRadius",
+      "description": "Border radius of container"
+    },
+    "border": {
+      "value": "{borderWidth.s.value} solid {color.greyscale.200.value}",
+      "type": "border",
+      "description": "Border of container"
+    },
+    "padding": {
+      "value": "{space.l.value}",
+      "type": "spacing",
+      "description": "Padding of container"
+    }
+  },
+  "table": {
+    "color-heading": {
+      "value": "{color.text.secondary.value}",
+      "type": "color",
+      "description": "Color of table heading text"
+    },
+    "color-border-heading": {
+      "value": "{color.greyscale.600.value}",
+      "type": "color",
+      "description": "Color of table heading border"
     }
   }
 }
