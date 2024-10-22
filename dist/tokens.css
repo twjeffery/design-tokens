@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Oct 2024 01:11:46 GMT
+ * Generated on Tue, 22 Oct 2024 23:22:14 GMT
  */
 
 :root {
@@ -158,9 +158,9 @@
   --goa-side-menu-child-color-bg-selected: var(--goa-color-info-background);
   --goa-side-menu-child-color-bg-hover: var(--goa-color-info-background);
   --goa-side-menu-group-border-radius: var(--goa-border-radius-none);
-  --goa-side-menu-parent-padding: var(--goa-space-none);
+  --goa-side-menu-parent-padding: var(--goa-space-xs) var(--goa-space-m) var(--goa-space-xs) var(--goa-space-xl);
   --goa-side-menu-sub-group-padding: var(--goa-space-none) var(--goa-space-none) var(--goa-space-none) var(--goa-space-none);
-  --goa-side-menu-group-padding: var(--goa-space-m) var(--goa-space-none) var(--goa-space-l) var(--goa-space-none);
+  --goa-side-menu-group-padding: var(--goa-space-none);
   --goa-side-menu-group-color-bg: var(--goa-color-greyscale-white);
   --goa-drawer-padding: var(--goa-space-m);
   --goa-container-padding: var(--goa-space-l);
