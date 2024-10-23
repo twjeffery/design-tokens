@@ -4,7 +4,7 @@
     "type": "color"
   },
   "side-menu-group-padding": {
-    "value": "{space.m} {space.none} {space.l} {space.none}",
+    "value": "{space.none}",
     "type": "spacing"
   },
   "side-menu-sub-group-padding": {
@@ -12,7 +12,7 @@
     "type": "spacing"
   },
   "side-menu-parent-padding": {
-    "value": "{space.none}",
+    "value": "{space.xs} {space.m} {space.xs} {space.xl}",
     "type": "spacing"
   },
   "side-menu-group-border-radius": {
