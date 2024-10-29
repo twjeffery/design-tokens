@@ -31,9 +31,12 @@
     "value": "{borderRadius.m}",
     "type": "borderRadius"
   },
-  "accordion-padding-heading": {
-    "value": "{space.s} {space.m}",
+  "accordion-padding-heading-icon-left": {
+    "value": "{space.s} {space.m} {space.s} 0",
     "type": "spacing"
+  },
+  "accordion-padding-heading-icon-right": {
+    "value": "{space.s} 0 {space.s} {space.m}"
   },
   "accordion-padding-content-wide": {
     "value": "{space.l} {space.l} {space.xl} 56px",

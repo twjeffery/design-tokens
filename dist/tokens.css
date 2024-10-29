@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Oct 2024 23:22:14 GMT
+ * Generated on Tue, 29 Oct 2024 17:07:39 GMT
  */
 
 :root {
@@ -194,7 +194,8 @@
   --goa-accordion-color-bg-heading-hover: var(--goa-color-greyscale-200);
   --goa-accordion-padding-content-narrow: var(--goa-space-l);
   --goa-accordion-padding-content-wide: var(--goa-space-l) var(--goa-space-l) var(--goa-space-xl) 56px;
-  --goa-accordion-padding-heading: var(--goa-space-s) var(--goa-space-m);
+  --goa-accordion-padding-heading-icon-right: var(--goa-space-s) 0 var(--goa-space-s) var(--goa-space-m);
+  --goa-accordion-padding-heading-icon-left: var(--goa-space-s) var(--goa-space-m) var(--goa-space-s) 0;
   --goa-accordion-border-radius: var(--goa-border-radius-m);
   --goa-accordion-divider: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
   --goa-accordion-border: var(--goa-border-width-s) solid var(--goa-color-greyscale-200);
