@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 29 Oct 2024 17:07:39 GMT
+ * Generated on Tue, 12 Nov 2024 21:48:14 GMT
  */
 
 :root {
@@ -121,6 +121,7 @@
   --goa-color-interactive-disabled: #80b7e1;
   --goa-color-interactive-hover: #004f84;
   --goa-color-interactive-default: #0070c4;
+  --goa-side-menu-parent-color-bg-selected: #CEDFEE;
   --goa-side-menu-parent-color-bg-hover: #CEDFEE;
   --goa-side-menu-child-border-width: 4px;
   --goa-drawer-transition-time: 200ms;

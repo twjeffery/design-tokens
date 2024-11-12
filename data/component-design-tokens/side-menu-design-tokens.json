@@ -27,6 +27,10 @@
     "value": "#CEDFEE",
     "type": "color"
   },
+  "side-menu-parent-color-bg-selected": {
+    "value": "#CEDFEE",
+    "type": "color"
+  },
   "side-menu-child-color-bg-hover": {
     "value": "{color.info.background}",
     "type": "color"
