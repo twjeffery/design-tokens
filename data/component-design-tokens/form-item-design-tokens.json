@@ -1,0 +1,46 @@
+{
+  "form-item-error-message-color": {
+    "value": "{color.interactive.error}",
+    "type": "color"
+  },
+  "form-item-help-message-color": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "form-item-label-large-padding-bottom": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "form-item-label-large-typography": {
+    "value": "{typography.heading.l}",
+    "type": "other"
+  },
+  "form-item-label-padding-bottom": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "form-item-label-typography": {
+    "value": "{typography.heading.s}",
+    "type": "other"
+  },
+  "form-item-message-gap": {
+    "value": "{space.2xs}",
+    "type": "spacing"
+  },
+  "form-item-message-margin-top": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "form-item-message-typography": {
+    "value": "{typography.body.xs}",
+    "type": "other"
+  },
+  "form-item-optional-label-color": {
+    "value": "{color.greyscale.700}",
+    "type": "color"
+  },
+  "form-item-optional-label-typography": {
+    "value": "{typography.body.xs}",
+    "type": "other"
+  }
+}

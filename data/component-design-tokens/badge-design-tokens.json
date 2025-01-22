@@ -1,0 +1,103 @@
+{
+  "badge-padding": {
+    "value": "0px {space.xs}",
+    "type": "spacing",
+    "description": "0px 8px"
+  },
+  "badge-gap": {
+    "value": "{space.2xs}",
+    "type": "spacing",
+    "description": "4px"
+  },
+  "badge-font-size": {
+    "value": "{fontSize.2}",
+    "type": "fontSizes",
+    "description": "14px"
+  },
+  "badge-line-height": {
+    "value": "{lineHeight.1}",
+    "type": "lineHeights",
+    "description": "20px"
+  },
+  "badge-icon-size": {
+    "value": "{iconSize.1}",
+    "type": "sizing",
+    "description": "16px"
+  },
+  "badge-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius",
+    "description": "4px"
+  },
+  "badge-info-color-bg": {
+    "value": "{color.greyscale.100}",
+    "type": "color"
+  },
+  "badge-info-color-content": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "badge-success-color-bg": {
+    "value": "{color.success.default}",
+    "type": "color"
+  },
+  "badge-success-color-content": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "badge-important-color-bg": {
+    "value": "{color.warning.default}",
+    "type": "color"
+  },
+  "badge-important-color-content": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "badge-emergency-color-bg": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "badge-emergency-color-content": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "badge-dark-color-bg": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "badge-dark-color-content": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "badge-midtone-color-bg": {
+    "value": "{color.greyscale.700}",
+    "type": "color"
+  },
+  "badge-midtone-color-content": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "badge-light-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "badge-light-color-content": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "badge-height": {
+    "value": "22px",
+    "type": "sizing"
+  },
+  "badge-border": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "{borderWidth.s}",
+      "color": "rgba(0,0,0,0.5)",
+      "type": "innerShadow"
+    },
+    "type": "boxShadow"
+  }
+}
