@@ -1,35 +1,41 @@
 {
-  "name": "@govalta/style-dictionary",
-  "version": "0.1.0-alpha.2",
-  "main": "./src/index.tsx",
-  "types": "index.d.ts",
+  "name": "@abgov/design-tokens",
+  "version": "0.0.0-development",
+  "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GovAlta/style-dictionary.git"
+    "url": "https://github.com/GovAlta/design-tokens.git"
   },
   "keywords": [
+    "GoA",
+    "Alberta Government",
+    "DDI",
     "style",
     "dictionary",
-    "style-dictionary"
+    "design-tokens"
   ],
   "devDependencies": {
-    "copyfiles": "^2.4.1",
-    "rimraf": "^3.0.2"
-
-  },
-  "scripts": {
-    "build": "npx style-dictionary build --config ./DDIStyle/config.json",
-    "bundle": "rimraf dist && npm run copy",
-    "copy": "copyfiles package.json dist && copyfiles index.js dist && copyfiles -u 2 ./DDIStyle/build/scss/** dist",
-    "deploy": "npm run build && npm run bundle && npm publish ./dist"
+    "jest": "^29.2.1",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.5"
   },
   "dependencies": {
     "style-dictionary": "^3.7.1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "scripts": {
+    "build": "node index.js",
+    "test": "jest && rimraf ./tmp",
+    "semantic-release": "semantic-release"
   },
   "bugs": {
-    "url": "https://github.com/GovAlta/style-dictionary/issues"
+    "url": "https://github.com/GovAlta/design-tokens/issues"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

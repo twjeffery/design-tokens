@@ -1,1 +1,3 @@
-﻿import "./scss/_variable.scss" 
+const SC = require("./lib/design-tokens");
+
+SC.generate(".");

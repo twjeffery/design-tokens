@@ -1,0 +1,48 @@
+{
+  "drawer-overlay-color": {
+    "value": "rgba(0,0,0,0.3)",
+    "type": "color",
+    "description": "background overlay color behind drawer, 70%"
+  },
+  "drawer-bottom-shadow": {
+    "value": {
+      "x": "0",
+      "y": "-4",
+      "blur": "12",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.2)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "drawer-left-shadow": {
+    "value": {
+      "x": "4",
+      "y": "0",
+      "blur": "12",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.2)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "drawer-right-shadow": {
+    "value": {
+      "x": "-4",
+      "y": "0",
+      "blur": "12",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.2)",
+      "type": "innerShadow"
+    },
+    "type": "boxShadow"
+  },
+  "drawer-transition-time": {
+    "value": "200ms",
+    "type": "other"
+  },
+  "drawer-padding": {
+    "value": "{space.m}",
+    "type": "spacing"
+  }
+}
