@@ -167,8 +167,20 @@
     "value": "{space.m} {space.s}",
     "type": "spacing"
   },
+  "app-header-padding-nav-item-with-children": {
+    "value": "{space.m} {space.s} {space.s}",
+    "type": "spacing"
+  },
   "app-header-padding-nav-item-in-menu": {
     "value": "9px {space.m}",
+    "type": "spacing"
+  },
+  "app-header-padding-secondary-nav-item-in-menu-mobile": {
+    "value": "9px {space.m} 9px 80px",
+    "type": "spacing"
+  },
+  "app-header-padding-secondary-nav-item-in-menu": {
+    "value": "9px {space.m} 9px {space.xl}",
     "type": "spacing"
   },
   "app-header-padding-tablet": {
