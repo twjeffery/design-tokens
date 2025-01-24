@@ -34,17 +34,17 @@
     "description": "52px"
   },
   "button-text": {
-    "value": "{fontFamily.sans} {fontWeight.regular} {fontSize.5} {lineHeight.1} {button-letter-spacing}",
+    "value": "{fontWeight.regular} {fontSize.5} {lineHeight.1} {fontFamily.sans}",
     "type": "other",
     "description": "typography for default button size"
   },
   "button-text-compact": {
-    "value": "{fontFamily.sans} {fontWeight.regular} {fontSize.4} {lineHeight.05} {button-letter-spacing}",
+    "value": "{fontWeight.regular} {fontSize.4} {lineHeight.05} {fontFamily.sans}",
     "type": "other",
     "description": "typography for compact button size"
   },
   "button-text-start": {
-    "value": "{fontFamily.sans} {fontWeight.bold} {fontSize.5} {lineHeight.1} {button-letter-spacing}",
+    "value": "{fontWeight.bold} {fontSize.5} {lineHeight.1} {fontFamily.sans}",
     "type": "other",
     "description": "typography for start button size"
   },

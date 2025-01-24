@@ -26,17 +26,6 @@
     },
     "type": "boxShadow"
   },
-  "drawer-right-shadow": {
-    "value": {
-      "x": "-4",
-      "y": "0",
-      "blur": "12",
-      "spread": "0",
-      "color": "rgba(0,0,0,0.2)",
-      "type": "innerShadow"
-    },
-    "type": "boxShadow"
-  },
   "drawer-transition-time": {
     "value": "200ms",
     "type": "other"
@@ -44,5 +33,9 @@
   "drawer-padding": {
     "value": "{space.m}",
     "type": "spacing"
+  },
+  "drawer-right-shadow": {
+    "value": "inset -4 0 12 0 {borderWidth.s} rgba(0,0,0,0.2)",
+    "type": "other"
   }
 }
