@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 28 Jan 2025 00:01:32 GMT
+// Generated on Tue, 28 Jan 2025 18:53:25 GMT
 
 $goa-font-weight-bold: 700;
 $goa-font-weight-medium: 500;
@@ -380,7 +380,7 @@ $goa-app-header-color-text-nav-item-focus: $goa-color-interactive-hover;
 $goa-app-header-color-menu-button-hover: $goa-color-interactive-hover;
 $goa-app-header-color-menu-button-focus: $goa-color-interactive-hover;
 $goa-app-header-color-bg-nav-item-child-focus: $goa-color-greyscale-100;
-$goa-app-header-color-bg-nav-item-child-hover: $goa-color-interactive-hover;
+$goa-app-header-color-bg-nav-item-child-hover: $goa-color-greyscale-100;
 $goa-app-header-color-bg-nav-item-in-menu-current-hover: $goa-color-interactive-hover;
 $goa-app-header-nav-color-text-link-item-focus: $goa-color-interactive-hover;
 $goa-app-header-nav-color-text-link-item-hover: $goa-color-interactive-hover;
@@ -429,6 +429,7 @@ $goa-footer-padding-small-screen: $goa-space-xl $goa-space-m;
 $goa-footer-padding-medium-screen: $goa-space-2xl $goa-space-xl;
 $goa-footer-padding-large-screen: $goa-space-2xl $goa-space-3xl;
 $goa-footer-link-focus: $goa-border-width-l solid $goa-color-interactive-focus;
+$goa-footer-color-links-secondary-hover: $goa-color-greyscale-900;
 $goa-footer-color-links-hover: $goa-color-greyscale-700;
 $goa-footer-color-bg: $goa-color-greyscale-100;
 $goa-footer-border-top: $goa-border-width-m solid $goa-color-greyscale-200;
@@ -493,7 +494,7 @@ $goa-date-input-day-border-radius: $goa-border-radius-m;
 $goa-date-input-day-underline-today-selected: $goa-border-width-l solid $goa-color-greyscale-white;
 $goa-date-input-day-underline-today-width: $goa-space-l;
 $goa-date-input-day-underline-today: $goa-border-width-l solid $goa-color-interactive-default;
-$goa-date-input-day-of-week-margin: $goa-space-xs;
+$goa-date-input-day-of-week-margin: $goa-space-xs 0;
 $goa-date-input-calendar-border-radius: $goa-border-radius-m;
 $goa-container-important-border: $goa-border-width-s solid $goa-color-warning-default;
 $goa-container-important-heading-bg-color: $goa-color-warning-default;
@@ -706,6 +707,7 @@ $goa-form-item-message-typography: $goa-typography-body-xs;
 $goa-form-item-label-typography: $goa-typography-heading-s;
 $goa-form-item-label-large-typography: $goa-typography-heading-l;
 $goa-form-item-help-message-color: $goa-color-text-default;
+$goa-footer-color-links-secondary: $goa-color-text-secondary;
 $goa-footer-color-links: $goa-color-text-default;
 $goa-file-upload-instruction-text: $goa-typography-body-m;
 $goa-file-upload-help-text: $goa-typography-body-s;

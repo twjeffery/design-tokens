@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jan 2025 00:01:32 GMT
+ * Generated on Tue, 28 Jan 2025 18:53:25 GMT
  */
 
 :root {
@@ -382,7 +382,7 @@
   --goa-app-header-color-menu-button-hover: var(--goa-color-interactive-hover);
   --goa-app-header-color-menu-button-focus: var(--goa-color-interactive-hover);
   --goa-app-header-color-bg-nav-item-child-focus: var(--goa-color-greyscale-100);
-  --goa-app-header-color-bg-nav-item-child-hover: var(--goa-color-interactive-hover);
+  --goa-app-header-color-bg-nav-item-child-hover: var(--goa-color-greyscale-100);
   --goa-app-header-color-bg-nav-item-in-menu-current-hover: var(--goa-color-interactive-hover);
   --goa-app-header-nav-color-text-link-item-focus: var(--goa-color-interactive-hover);
   --goa-app-header-nav-color-text-link-item-hover: var(--goa-color-interactive-hover);
@@ -431,6 +431,7 @@
   --goa-footer-padding-medium-screen: var(--goa-space-2xl) var(--goa-space-xl);
   --goa-footer-padding-large-screen: var(--goa-space-2xl) var(--goa-space-3xl);
   --goa-footer-link-focus: var(--goa-border-width-l) solid var(--goa-color-interactive-focus);
+  --goa-footer-color-links-secondary-hover: var(--goa-color-greyscale-900);
   --goa-footer-color-links-hover: var(--goa-color-greyscale-700);
   --goa-footer-color-bg: var(--goa-color-greyscale-100);
   --goa-footer-border-top: var(--goa-border-width-m) solid var(--goa-color-greyscale-200);
@@ -495,7 +496,7 @@
   --goa-date-input-day-underline-today-selected: var(--goa-border-width-l) solid var(--goa-color-greyscale-white);
   --goa-date-input-day-underline-today-width: var(--goa-space-l);
   --goa-date-input-day-underline-today: var(--goa-border-width-l) solid var(--goa-color-interactive-default);
-  --goa-date-input-day-of-week-margin: var(--goa-space-xs);
+  --goa-date-input-day-of-week-margin: var(--goa-space-xs) 0;
   --goa-date-input-calendar-border-radius: var(--goa-border-radius-m);
   --goa-container-important-border: var(--goa-border-width-s) solid var(--goa-color-warning-default);
   --goa-container-important-heading-bg-color: var(--goa-color-warning-default);
@@ -708,6 +709,7 @@
   --goa-form-item-label-typography: var(--goa-typography-heading-s);
   --goa-form-item-label-large-typography: var(--goa-typography-heading-l);
   --goa-form-item-help-message-color: var(--goa-color-text-default);
+  --goa-footer-color-links-secondary: var(--goa-color-text-secondary);
   --goa-footer-color-links: var(--goa-color-text-default);
   --goa-file-upload-instruction-text: var(--goa-typography-body-m);
   --goa-file-upload-help-text: var(--goa-typography-body-s);
