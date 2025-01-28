@@ -135,7 +135,7 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "app-header-color-menu-button": {
+  "app-header-color-text-nav-item": {
     "value": "{color.text.default}",
     "type": "color"
   },
