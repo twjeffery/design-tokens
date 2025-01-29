@@ -1,0 +1,26 @@
+{
+  "popover-border-focus": {
+    "value": {
+      "width": "{borderWidth.l}",
+      "style": "solid",
+      "color": "{color.interactive.focus}"
+    },
+    "type": "border"
+  },
+  "popover-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "popover-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "popover-padding": {
+    "value": "{space.s}",
+    "type": "spacing"
+  },
+  "popover-shadow": {
+    "value": "drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.25))",
+    "type": "other"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "modal-border-radius": {
+    "value": "{borderRadius.m}",
+    "type": "borderRadius"
+  },
+  "modal-callout-bar-padding": {
+    "value": "{space.xl}",
+    "type": "spacing"
+  },
+  "modal-callout-bar-padding-small-screen": {
+    "value": "{space.s} {space.s} {space.s} {space.l}",
+    "type": "spacing"
+  },
+  "modal-content-gap": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "modal-content-gap-small-screen": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "modal-header-typography": {
+    "value": "{typography.heading.m}",
+    "type": "other"
+  },
+  "modal-overlay-color": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "modal-padding": {
+    "value": "{space.xl}",
+    "type": "spacing"
+  },
+  "modal-padding-small-screen": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "modal-shadow": {
+    "value": {
+      "x": "6",
+      "y": "6",
+      "blur": "6",
+      "spread": "6",
+      "color": "rgba(0,0,0,0.16)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "modal-overlay-opacity": {
+    "value": "{opacity.background.modal}",
+    "type": "opacity"
+  }
+}

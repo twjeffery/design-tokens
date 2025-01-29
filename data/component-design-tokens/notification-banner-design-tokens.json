@@ -1,0 +1,90 @@
+{
+  "notification-banner-emergency-color-bg": {
+    "value": "{color.emergency.default}",
+    "type": "color"
+  },
+  "notification-banner-emergency-color-icon": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "notification-banner-emergency-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "notification-banner-event-color-bg": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "notification-banner-event-color-icon": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "notification-banner-event-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "notification-banner-gap": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "notification-banner-important-color-bg": {
+    "value": "{color.warning.default}",
+    "type": "color"
+  },
+  "notification-banner-important-color-icon": {
+    "value": "{color.greyscale.black}",
+    "type": "color"
+  },
+  "notification-banner-important-color-text": {
+    "value": "{color.text.default}",
+    "type": "color"
+  },
+  "notification-banner-information-color-bg": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "notification-banner-information-color-icon": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "notification-banner-information-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "notification-banner-padding-lr-large-screen": {
+    "value": "{space.3xl}",
+    "type": "spacing"
+  },
+  "notification-banner-padding-lr-medium-screen": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "notification-banner-padding-lr-small-screen": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
+  "notification-banner-padding-tb": {
+    "value": "{space.l}",
+    "type": "spacing"
+  },
+  "notification-banner-size-icon": {
+    "value": "{iconSize.4}",
+    "type": "sizing"
+  },
+  "notification-banner-text-size": {
+    "value": "{typography.body.m}",
+    "type": "other"
+  },
+  "notification-banner-custom-color-bg": {
+    "value": "{color.info.default}",
+    "type": "color"
+  },
+  "notification-banner-custom-color-icon": {
+    "value": "{color.greyscale.white}",
+    "type": "color"
+  },
+  "notification-banner-custom-color-text": {
+    "value": "{color.text.light}",
+    "type": "color"
+  }
+}

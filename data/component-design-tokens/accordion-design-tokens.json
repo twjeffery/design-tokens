@@ -33,10 +33,13 @@
   },
   "accordion-padding-heading-icon-left": {
     "value": "{space.s} {space.m} {space.s} 0",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "padding of accordion heading when icon is positioned on the left"
   },
   "accordion-padding-heading-icon-right": {
-    "value": "{space.s} 0 {space.s} {space.m}"
+    "value": "{space.s} 0 {space.s} {space.m}",
+    "type": "spacing",
+    "description": "padding of accordion heading when icon is positioned on the right"
   },
   "accordion-padding-content-wide": {
     "value": "{space.l} {space.l} {space.xl} 56px",
@@ -74,4 +77,3 @@
     "type": "boxShadow"
   }
 }
-

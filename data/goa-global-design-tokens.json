@@ -120,7 +120,7 @@
         "type": "color"
       },
       "background": {
-        "value": "#fff1f2",
+        "value": "#FFF6F6",
         "type": "color"
       }
     },
@@ -138,7 +138,7 @@
         "type": "color"
       },
       "background": {
-        "value": "#eef9f3",
+        "value": "#F2FFFA",
         "type": "color"
       }
     },
@@ -290,28 +290,42 @@
       "value": "0",
       "type": "borderRadius"
     },
+    "s": {
+      "value": "0.125rem",
+      "type": "borderRadius",
+      "description": "2px"
+    },
     "m": {
       "value": "0.25rem",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "description": "4px"
     },
     "l": {
       "value": "0.375rem",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "description": "6px"
     },
     "xl": {
       "value": "0.5rem",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "description": "8px"
     },
     "2xl": {
       "value": "0.625rem",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "description": "10px"
     },
     "3xl": {
       "value": "0.75rem",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "description": "12px"
     }
   },
   "borderWidth": {
+    "none": {
+      "value": "0px",
+      "type": "borderWidth"
+    },
     "2xs": {
       "value": "0.5px",
       "type": "borderWidth"
@@ -330,6 +344,10 @@
     },
     "l": {
       "value": "3px",
+      "type": "borderWidth"
+    },
+    "xl": {
+      "value": "4px",
       "type": "borderWidth"
     }
   },
@@ -391,6 +409,36 @@
     }
   },
   "iconSize": {
+    "1": {
+      "value": "1rem",
+      "type": "sizing",
+      "description": "16px"
+    },
+    "2": {
+      "value": "1.125rem",
+      "type": "sizing",
+      "description": "18px"
+    },
+    "3": {
+      "value": "1.25rem",
+      "type": "sizing",
+      "description": "20px"
+    },
+    "4": {
+      "value": "1.5rem",
+      "type": "sizing",
+      "description": "24px"
+    },
+    "5": {
+      "value": "2rem",
+      "type": "sizing",
+      "description": "32px"
+    },
+    "6": {
+      "value": "2.5rem",
+      "type": "sizing",
+      "description": "40px"
+    },
     "s": {
       "value": "1rem",
       "type": "sizing",
@@ -407,7 +455,7 @@
       "description": "24px"
     }
   },
-  "Shadow": {
+  "shadow": {
     "100": {
       "value": {
         "x": "0",
@@ -704,18 +752,6 @@
         "type": "typography"
       }
     },
-    "button": {
-      "default": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "fontWeight": "{fontWeight.regular}",
-          "fontSize": "{fontSize.4}",
-          "lineHeight": "{lineHeight.1}",
-          "letterSpacing": "{letterSpacing.button}"
-        },
-        "type": "typography"
-      }
-    },
     "number": {
       "s": {
         "value": {
@@ -746,11 +782,12 @@
       }
     }
   },
-  "letterSpacing": {
-    "button": {
-      "value": "0.0125rem",
-      "type": "letterSpacing",
-      "description": "small letter spacing adjustment to slightly kern letters out for readability on buttons"
-    }
+  "border-none": {
+    "value": {
+      "color": "rgba(0,0,0,0)",
+      "width": "{borderWidth.none}",
+      "style": "solid"
+    },
+    "type": "border"
   }
 }

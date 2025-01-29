@@ -6,5 +6,9 @@
   "table-color-border-heading": {
     "value": "{color.greyscale.600}",
     "type": "color"
+  },
+  "goa-table-header-padding": {
+    "value": "{space.m}",
+    "type": "sizing"
   }
 }
