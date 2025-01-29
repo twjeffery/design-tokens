@@ -128,7 +128,7 @@
     "type": "color"
   },
   "app-header-color-bg-nav-item-child-hover": {
-    "value": "{color.interactive.hover}",
+    "value": "{color.greyscale.100}",
     "type": "color"
   },
   "app-header-color-bg-nav-item-child-focus": {

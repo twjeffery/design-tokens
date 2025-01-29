@@ -27,6 +27,14 @@
     "value": "{color.greyscale.700}",
     "type": "color"
   },
+  "footer-color-links-secondary": {
+    "value": "{color.text.secondary}",
+    "type": "color"
+  },
+  "footer-color-links-secondary-hover": {
+    "value": "{color.greyscale.900}",
+    "type": "color"
+  },
   "footer-link-focus": {
     "value": {
       "width": "{borderWidth.l}",

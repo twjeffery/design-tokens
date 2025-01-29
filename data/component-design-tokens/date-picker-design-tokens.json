@@ -16,7 +16,7 @@
     "type": "other"
   },
   "date-input-day-of-week-margin": {
-    "value": "{space.xs}",
+    "value": "{space.xs} 0",
     "type": "spacing"
   },
   "date-input-day-font-today": {
