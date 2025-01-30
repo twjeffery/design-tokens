@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jan 2025 18:53:25 GMT
+ * Generated on Wed, 29 Jan 2025 21:10:22 GMT
  */
 
 :root {
@@ -262,6 +262,7 @@
   --goa-side-menu-icon-size: var(--goa-icon-size-l);
   --goa-side-menu-heading-padding: var(--goa-space-s) var(--goa-space-s) var(--goa-space-xs) var(--goa-space-l);
   --goa-side-menu-heading-margin: var(--goa-space-none) 0 0 0;
+  --goa-side-menu-child-margin: var(--goa-space-m);
   --goa-side-menu-heading-icon-gap: var(--goa-space-xs);
   --goa-side-menu-heading-color-bg: var(--goa-color-greyscale-100);
   --goa-side-menu-heading-border: var(--goa-border-width-m) solid var(--goa-color-greyscale-200);

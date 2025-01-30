@@ -43,6 +43,10 @@
     "value": "{space.xs}",
     "type": "spacing"
   },
+  "side-menu-child-margin": {
+    "value": "{space.m}",
+    "type": "spacing"
+  },
   "side-menu-heading-margin": {
     "value": "{space.none} 0 0 0",
     "type": "spacing"
