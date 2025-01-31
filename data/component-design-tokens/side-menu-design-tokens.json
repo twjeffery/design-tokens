@@ -71,6 +71,10 @@
     "value": "{space.none}",
     "type": "spacing"
   },
+  "side-menu-heading-gap": {
+    "value": "{space.xs}",
+    "type": "spacing"
+  },
   "side-menu-item-focus-border": {
     "value": {
       "width": "{borderWidth.l}",
