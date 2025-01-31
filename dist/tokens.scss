@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 28 Jan 2025 18:53:25 GMT
+// Generated on Fri, 31 Jan 2025 18:07:44 GMT
 
 $goa-font-weight-bold: 700;
 $goa-font-weight-medium: 500;
@@ -260,6 +260,7 @@ $goa-side-menu-items-gap: $goa-space-none;
 $goa-side-menu-icon-size: $goa-icon-size-l;
 $goa-side-menu-heading-padding: $goa-space-s $goa-space-s $goa-space-xs $goa-space-l;
 $goa-side-menu-heading-margin: $goa-space-none 0 0 0;
+$goa-side-menu-child-margin: $goa-space-m;
 $goa-side-menu-heading-icon-gap: $goa-space-xs;
 $goa-side-menu-heading-color-bg: $goa-color-greyscale-100;
 $goa-side-menu-heading-border: $goa-border-width-m solid $goa-color-greyscale-200;
@@ -695,6 +696,8 @@ $goa-app-header-color-text-nav-item-current: $goa-color-text-default;
 $goa-app-header-color-text-nav-item: $goa-color-text-default;
 $goa-app-header-color-service-name: $goa-color-text-default;
 $goa-app-header-color-menu-button: $goa-color-text-default;
+$goa-app-header-color-text-nav-item-in-menu-current-hover: $goa-color-text-light;
+$goa-app-header-color-text-nav-item-in-menu-current: $goa-color-text-light;
 $goa-step-typography-sublabel: $goa-typography-body-xs;
 $goa-step-typography-step-number: $goa-typography-heading-xs;
 $goa-step-typography-label-active: $goa-typography-heading-xs;

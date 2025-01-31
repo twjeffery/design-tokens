@@ -51,6 +51,14 @@
     },
     "type": "border"
   },
+  "app-header-color-text-nav-item-in-menu-current": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
+  "app-header-color-text-nav-item-in-menu-current-hover": {
+    "value": "{color.text.light}",
+    "type": "color"
+  },
   "app-header-border-nav-item-default": {
     "value": {
       "width": "{space.2xs}",
@@ -135,7 +143,7 @@
     "value": "{color.greyscale.100}",
     "type": "color"
   },
-  "app-header-color-text-nav-item": {
+  "app-header-color-menu-button": {
     "value": "{color.text.default}",
     "type": "color"
   },
