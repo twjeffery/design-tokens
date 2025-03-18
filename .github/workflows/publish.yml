@@ -20,7 +20,7 @@ jobs:
       - name: Get Latest
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -28,7 +28,7 @@ jobs:
       - name: Configure Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
           registry-url: "https://registry.npmjs.org"
           scope: "@abgov"
         env:
@@ -44,7 +44,7 @@ jobs:
         run: npm run test
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v3.1.2
+        uses: cycjimmy/semantic-release-action@v4
         with:
           semantic_version: 16
           branches: |
@@ -54,4 +54,5 @@ jobs:
             ]
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_GRANULAR }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_GRANULAR }}
