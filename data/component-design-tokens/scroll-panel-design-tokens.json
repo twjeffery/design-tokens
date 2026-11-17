@@ -1,0 +1,69 @@
+{
+  "scroll-panel-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel host."
+  },
+  "scroll-panel-header-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel header slot."
+  },
+  "scroll-panel-footer-color-bg": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color for the scroll-panel footer slot."
+  },
+  "scroll-panel-content-shadow-bottom": {
+    "value": {
+      "light": "inset 0px -4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "inset 0px -4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Inset shadow on scroll-panel content when scrolled to the top (more content below the visible edge)."
+  },
+  "scroll-panel-content-shadow-top": {
+    "value": {
+      "light": "inset 0px 4px 8px -4px rgba(0,0,0,0.25)",
+      "dark": "inset 0px 4px 8px -4px rgba(0,0,0,0.5)"
+    },
+    "type": "other",
+    "description": "Inset shadow on scroll-panel content when scrolled to the bottom (more content above the visible edge)."
+  },
+  "scroll-panel-content-shadow-top-bottom": {
+    "value": {
+      "light": "inset 0px 4px 8px -4px rgba(0,0,0,0.175), inset 0px -4px 8px -4px rgba(0,0,0,0.175)",
+      "dark": "inset 0px 4px 8px -4px rgba(0,0,0,0.4), inset 0px -4px 8px -4px rgba(0,0,0,0.4)"
+    },
+    "type": "other",
+    "description": "Inset shadows on both edges of scroll-panel content when scrolled to the middle (more content above and below)."
+  },
+  "scroll-panel-content-shadow-horizontal": {
+    "value": {
+      "light": "rgba(0,0,0,0.1)",
+      "dark": "rgba(0,0,0,0.4)"
+    },
+    "type": "other",
+    "description": "Edge gradient color shown on the left/right of scroll-panel content when it overflows horizontally, indicating more content in that direction."
+  },
+  "scroll-panel-header-scroll-border": {
+    "value": "{color.greyscale.150}",
+    "type": "color",
+    "description": "Border color shown under the header when content is scrolled beneath it."
+  },
+  "scroll-panel-header-scroll-shadow": {
+    "value": "{shadow.shallow-below}",
+    "type": "other",
+    "description": "Drop shadow cast below the header when content is scrolled beneath it."
+  },
+  "scroll-panel-footer-scroll-border": {
+    "value": "{color.greyscale.150}",
+    "type": "color",
+    "description": "Border color shown above the footer when content is scrolled below it."
+  },
+  "scroll-panel-footer-scroll-shadow": {
+    "value": "{shadow.shallow-above}",
+    "type": "other",
+    "description": "Drop shadow cast above the footer when content is scrolled below it."
+  }
+}

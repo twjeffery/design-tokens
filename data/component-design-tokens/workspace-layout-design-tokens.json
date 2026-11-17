@@ -1,0 +1,85 @@
+{
+  "workspace-layout-bg-color": {
+    "value": "{color.greyscale.50}",
+    "type": "color",
+    "description": "Background color of the workspace layout shell (visible around the main card)."
+  },
+  "workspace-layout-card-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the workspace layout's main scrollable card."
+  },
+  "workspace-layout-header-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the sticky page header inside the workspace layout card."
+  },
+  "workspace-layout-header-border-bottom": {
+    "value": {
+      "width": "{borderWidth.s}",
+      "style": "solid",
+      "color": "{color.greyscale.200}"
+    },
+    "type": "border",
+    "description": "Divider line under the sticky page header."
+  },
+  "workspace-layout-header-scroll-border-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color",
+    "description": "Border color under the sticky page header when content is scrolled past it."
+  },
+  "workspace-layout-header-scroll-shadow": {
+    "value": "{shadow.shallow-below}",
+    "type": "other",
+    "description": "Soft drop shadow cast below the sticky page header when content is scrolled past it."
+  },
+  "workspace-layout-footer-bg-color": {
+    "value": "{color.greyscale.white}",
+    "type": "color",
+    "description": "Background color of the sticky page footer inside the workspace layout card."
+  },
+  "workspace-layout-footer-border-top": {
+    "value": {
+      "width": "{borderWidth.s}",
+      "style": "solid",
+      "color": "{color.greyscale.200}"
+    },
+    "type": "border",
+    "description": "Divider line above the sticky page footer."
+  },
+  "workspace-layout-footer-scroll-border-color": {
+    "value": "{color.greyscale.200}",
+    "type": "color",
+    "description": "Border color above the sticky page footer when content is scrolled past it."
+  },
+  "workspace-layout-footer-scroll-shadow": {
+    "value": "{shadow.shallow-above}",
+    "type": "other",
+    "description": "Soft drop shadow cast above the sticky page footer when content is scrolled past it."
+  },
+  "workspace-layout-mobile-toggle-top": {
+    "value": "{space.l}",
+    "type": "spacing",
+    "description": "Vertical offset of the auto-rendered mobile hamburger button from the top of the layout."
+  },
+  "workspace-layout-mobile-toggle-left": {
+    "value": "{space.s}",
+    "type": "spacing",
+    "description": "Horizontal offset of the auto-rendered mobile hamburger button from the left of the layout."
+  },
+  "workspace-layout-mobile-toggle-size": {
+    "value": "{iconSize.xl}",
+    "type": "sizing",
+    "description": "Width and height of the auto-rendered mobile hamburger button."
+  },
+  "workspace-layout-mobile-toggle-color": {
+    "value": "{color.text.default}",
+    "type": "color",
+    "description": "Color of the auto-rendered mobile hamburger button icon."
+  },
+  "workspace-layout-mobile-header-padding-left": {
+    "value": "{space.2xl}",
+    "type": "spacing",
+    "description": "Left padding of the sticky page header on mobile, reserving space so the header content clears the auto-rendered hamburger button."
+  }
+}
